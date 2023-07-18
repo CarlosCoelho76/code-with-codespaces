@@ -1,0 +1,16 @@
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+credential.helper=/.codespaces/bin/gitcredential_github.sh
+user.name=CarlosCoelho76
+user.email=139811516+CarlosCoelho76@users.noreply.github.com
+gpg.program=/.codespaces/bin/gh-gpgsign
+init.defaultbranch=main
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+lfs.repositoryformatversion=0
+remote.skills.js.url=code-with-codespaces
+remote.skills.js.fetch=+refs/heads/*:refs/remotes/skills.js/*
